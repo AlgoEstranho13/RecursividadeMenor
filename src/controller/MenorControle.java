@@ -1,8 +1,12 @@
 package controller;
 
 public class MenorControle {
+	
+	public MenorControle() {
+		super();
+	}
 
-	public static int Menor(int[] vetor, int tamanho, int ultimo) {
+	public int Menor(int[] vetor, int tamanho, int ultimo) {
 		//Condição de parada -> Quando o vetor ter um único valor dentro dele, impossibilitando a comparação
 		if (tamanho == 1) {
 			return ultimo;
